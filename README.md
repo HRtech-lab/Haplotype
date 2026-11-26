@@ -6,10 +6,18 @@ The program phases diploid, biallelic heterozygous SNVs from a single sample usi
 
 ![Observed alleles and coverage](Worked%20Examples/01%20Read-backed%20phasing/figure.svg)
 
-## Run
+## Try the included example
+
+From the repository root, run the worked example on its generated fixture. Its output shows three markers in one phase block and a fourth marker whose phase is unresolved.
 
 ```sh
 python -m pip install -r requirements.txt
+python "Worked Examples/01 Read-backed phasing/read_backed_phasing.py"
+```
+
+## Run on your own alignments
+
+```sh
 python haplotype.py --vcf calls.vcf.gz --bam reads.bam --sample plant --out-dir results
 python -m unittest -v
 ```
