@@ -1,4 +1,4 @@
-# Haplotype assignment from short reads
+# Haplotype
 
 A **haplotype** is the combination of alleles carried together on one chromosome copy. A diploid genotype records the two alleles at a site. Phasing determines how alleles at different sites are arranged across the two copies. Two sites can both have genotype `0/1`, yet the underlying pair of haplotypes may be `00 / 11` or `01 / 10`. Reads spanning the sites can distinguish these possibilities. [NHGRI glossary](https://www.genome.gov/genetics-glossary/haplotype)
 
